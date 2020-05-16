@@ -12,3 +12,8 @@ $.ajax({
         }
     }
 })
+// 退出功能
+$('.logout').on('click', function () {
+    localStorage.removeItem('token')
+    window.location.href = './login.html'
+})
