@@ -6,6 +6,7 @@ $(function () {
             type: 'post',
             // url: 'http://localhost:8080/api/v1/admin/user/login',
             url: BigNew.user_login,
+            // 将当前数据（账号和密码）以拼接字符串方式放送
             data: $(this).serialize(),
             beforeSend: function () {
                 var flag = false;
