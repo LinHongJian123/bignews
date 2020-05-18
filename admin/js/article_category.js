@@ -2,6 +2,7 @@ $(function () {
     // 1. 发送请求获取数据，渲染页面
     // 1.1 发送ajax请求
     render()
+    // 封装渲染页面函数
     function render() {
         $.ajax({
             type: 'get',
